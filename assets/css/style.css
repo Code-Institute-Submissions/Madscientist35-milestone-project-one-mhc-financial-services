@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Raleway:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 /*--------------------------------------------------------------- Header */
 
 header {
     margin: 0;
-}
-
-.navalert-container {
-    position: ;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    padding-left: 0;
-    padding-right: 0;
+    
 }
 
 .navbar {
@@ -25,16 +21,53 @@ header {
     border: 0;
 }
 
-.navbar .navbar-brand {
-    font-weight: bold;
-    letter-spacing: 2px;
+.nav-item {
+    margin: 0 0 0 5em;
 }
 
-.navbar .navbar-nav a {
-    font-weight: bold;
+.dropdown-menu {
+    background-color: #696969;
 }
 
-.topnav-right {
-    text-align: right;
+.dropdown-item {
+    color: #fff;
 }
-/*-------------------------------------------------------------- Colors*/
+
+/*-------------------------------------------------------------- Carousel*/
+
+.carousel-item {
+    height: 800px;
+    
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.page-break {
+    background-color:  #696969;
+
+}
+
+
+/*-------------------------------------------------------------- Footer*/
+
+footer{
+    height: 150px;
+}
+.social-networks {
+    position: inline;
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
