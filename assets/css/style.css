@@ -21,23 +21,53 @@ header {
     border: 0;
 }
 
+.navbar-brand {
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.navbar-brand:hover{
+    color: #64AF75;
+}
+
 .nav-item {
     margin: 0 0 0 5em;
+    
 }
 
 .dropdown-menu {
     background-color: #696969;
 }
 
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #64AF75;
+}
+
 .dropdown-item {
     color: #fff;
+}
+
+.dropdown-item:hover {
+    color: #64AF75;
+}
+
+.fas, .fa-bars {
+    color:#fff;
+    font-size:28px;
 }
 
 /*-------------------------------------------------------------- Carousel*/
 
 .carousel-item {
     height: 800px;
-    
+}
+
+.carousel-item img {
+    height: 800px;
 }
 
 .card-img-top {
@@ -49,25 +79,47 @@ header {
 
 }
 
+/*-------------------------------------------------------------- Card Deck*/
+
+.card {
+    background-color: #696969;
+    color: #fff;
+}
+
+.hyperlink {
+    color: #fff;
+}
+.hyperlink:hover {
+    color: #64AF75;
+}
+
+.card-deck {
+    margin: 25px auto;
+}
+
+.card-text {
+    font-family: 'Lora', sans-serif;
+    letter-spacing: .5px;
+}
+
+.card-footer {
+    background-color: #8D6D5F;
+}
+
+.button-link {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 
 /*-------------------------------------------------------------- Footer*/
 
 footer{
-    height: 150px;
-}
-.social-networks {
-    position: inline;
-    text-align: center;
-
+    height: 400px;
+    background-color: #696969;
+    margin-top: 25px;
 }
 
-.social-networks li {
-    display: inline;
-}
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #777777;
-}
+/*-------------------------------------------------------------- Screens*/
+
