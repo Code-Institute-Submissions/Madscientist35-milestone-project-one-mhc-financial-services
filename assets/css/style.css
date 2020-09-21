@@ -120,6 +120,61 @@ footer{
     margin-top: 25px;
 }
 
+.styling{
+    color: #fff;
+}
+.styling:hover{
+    color: #64AF75;
+}
 
-/*-------------------------------------------------------------- Screens*/
+.foot-styling{
+    color: #fff;
+}
 
+.btn-floating{
+    color: #fff;
+}
+.btn-floating:hover{
+    color:#64AF75;
+}
+
+.mb-4{
+    color: #fff;
+}
+
+
+/*-------------------------------------------------------------- Services List*/
+
+.mr-3{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.list-title{
+    color: #8D6D5F;
+}
+
+.media{
+    margin-left: 180px;
+    width: 75%;
+    height: 200px;
+}
+
+.custom-style{
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.par-style{
+    color:  #696969;
+}
+
+.media{
+    height: 250px;
+}
+
+.row{
+    margin-top: 125px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
