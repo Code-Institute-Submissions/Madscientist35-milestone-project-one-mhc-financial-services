@@ -179,3 +179,7 @@ footer{
     margin-right: 15px;
 }
 
+.image-parameter {
+    width: 300px;
+    height: 300px;
+}
