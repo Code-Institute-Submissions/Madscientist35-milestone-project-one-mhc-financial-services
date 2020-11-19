@@ -66,7 +66,7 @@ I used Balsamiq to build the Desktop design of the website. View my wireframes h
 
 
 ### Features
-The website is built with 5 pages. It makes website easier to load and navigate. Users can easily navigate website by either scrolling down or going through Navigation Bar.
+The website is built with 4 pages. It makes website easier to load and navigate. Users can easily navigate website by either scrolling down or going through Navigation Bar.
 ### Navigation bar
 Navigation bar structures are the company’s Logo & name with menu items. The Menu includes links to Home, Services, About and Contact pages. There is a drop down bar on the services tab to allow users to select the service they want to visit. Users can easily return to the top of the website by either pressing the Logo or Home tab.
 ### About

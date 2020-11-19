@@ -2,13 +2,17 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-}
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+    }
 
 /*--------------------------------------------------------------- Header */
 
 header {
     margin: 0;
-    
+    width: 100%;
+    height: auto; 
 }
 
 .navbar {
@@ -25,6 +29,7 @@ header {
     font-size: 25px;
     color: #fff;
     letter-spacing: 2px;
+    font-family: 'Lora' , sans-serif;
 }
 .navbar-brand:hover{
     color: #64AF75;
@@ -64,14 +69,17 @@ header {
 
 .carousel-item {
     height: 800px;
+    width: 100%;
 }
 
 .carousel-item img {
     height: 800px;
+    width: 100%;
 }
 
 .card-img-top {
     height: 250px;
+    width: 100%;
 }
 
 .page-break {
@@ -80,6 +88,10 @@ header {
 }
 
 /*-------------------------------------------------------------- Card Deck*/
+
+.card-preview {
+width: 100%;
+}
 
 .card {
     background-color: #696969;
@@ -114,10 +126,11 @@ header {
 
 /*-------------------------------------------------------------- Footer*/
 
-footer{
-    height: 500px;
+.page-footer{
+    height: 100%;
     background-color: #696969;
     margin-top: 25px;
+    position: relative;
 }
 
 .styling{
@@ -182,4 +195,10 @@ footer{
 .image-parameter {
     width: 300px;
     height: 300px;
+}
+
+/*-------------------------------------------------------------- Contact Page*/
+.col-lg-7 {
+    width: 100%;
+    
 }
