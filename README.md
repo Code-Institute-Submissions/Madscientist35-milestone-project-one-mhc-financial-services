@@ -5,45 +5,45 @@ It needs to be informative and display in a clear defined manner, what the compa
 ## UX
 
 ### Target Audience
-•	People in need of financial services
+•	People in need of financial services.
 
-•	People who need help in any of the services listed
+•	People who need help in any of the services listed.
 
 •	Company’s who need to outsource their financial needs and/or HR.
 
 •	People who want to learn about how working with this company could benefit their own needs.
 
-•	People who don’t understand revenue
+•	People who don’t understand revenue.
 
 ### Visitor/User goals:
 
-•	Clearly retrieve information on what services are on offer
+•	Clearly retrieve information on what services are on offer.
 
-•	Learn how working this company can benefit them
+•	Learn how working this company can benefit them.
 
-•	Definitive ‘call to action’ to be able to get in contact
+•	Definitive ‘call to action’ to be able to get in contact.
 
 ### Business goals (site owner's goals):
 
-•	Make the brand more recognizable and expand the business
+•	Make the brand more recognizable and expand the business.
 
-•	Provide a connection to social media platforms in order to give a stronger marketing platform in order to generate revenue
+•	Provide a connection to social media platforms in order to give a stronger marketing platform in order to generate revenue.
 
-•	Promote their services to a larger audience
+•	Promote their services to a larger audience.
 
-•	Clear ‘call to action’ method to generate potential new clients to engage in services
+•	Clear ‘call to action’ method to generate potential new clients to engage in services.
 
 ## User Stories
 
 ### First time Visitors
-1.	Visitor to the website, I want to easily navigate the site and find what I require (implementing the 3 click rule)
-2.	Visitor will want to view services page to identify what is on offer in a clear and informative manner which is honest, thorough & understandable
-3.	Visitors will want to learn more about the company, to add positivity and value to the overall experience 
-4.	Visitor wants an easy way to contact the company to engage services
+1.	Visitor to the website, I want to easily navigate the site and find what I require (implementing the 3 click rule).
+2.	Visitor will want to view services page to identify what is on offer in a clear and informative manner which is honest, thorough & understandable.
+3.	Visitors will want to learn more about the company, to add positivity and value to the overall experience. 
+4.	Visitor wants an easy way to contact the company to engage services.
 5.	As a client, I want to follow the company on social media, so I can keep up with their latest works & news.
 ### Returning Visitors
-1.	As a returning visitor I want to easily navigate to what I need
-2.	To see contact information and opening hours
+1.	As a returning visitor I want to easily navigate to what I need.
+2.	To see contact information and opening hours.
 3.	To be able to quickly and easy engage with the company.
 ## Features
 When designing this website, I looked for the design inspiration from various tech websites & accounting/financial websites and UX reviews online.
@@ -51,7 +51,7 @@ When designing this website, I looked for the design inspiration from various te
 I have used Google Fonts to determine the best fonts suitable for each part of the website, I.e. Headings, Menu and Body information.
 I opted to use the Lora & Raleway font's for my website, which is one of the most popular fonts used by major internet companies.
 ### Icons
-The Icons I used where taken from Fontawesome, used in moderation on different objects
+The Icons I used where taken from Fontawesome, used in moderation on different objects.
 ### Colors
 The colors were determined by the palette of colormind website:
 
@@ -60,11 +60,14 @@ The colors were determined by the palette of colormind website:
 •	For Logo and navbar menu: #696969; #64AF75;
 
 •	For body background: #fff; #8D6D5F;
+
+### Images
+All Images were taken from Pexel and compressed with Tiny jpg to increase webpage load times.
  
 ### Wireframe
 I used Balsamiq to build the Desktop design of the website. View my wireframes here:
 
-[MHC Financial Wireframes](/assets/wireframes/MHC.bmpr)
+[MHC Financial Wireframes](/assets/wireframes/mhc.bmpr)
 
 
 ### Features
@@ -79,45 +82,45 @@ The service tab consists of one page with 10 parts. The top part is the Taxation
 The contact page has two columns. The left column is the contact form where clients have to include their first name and surname, email, phone no and they will be provided a textbox to input a description of what they are seeking. All fields are marked with the ‘Required’ attribute.
 The right side is the contact information where clients can view the street address, phone no, email and google map.
 ### Footer
-The footer is located at the bottom of the page it will contain an additional navbar, contact information for company and copyright. It will also have details about who designed the page with a link to the designer’s homepage
+The footer is located at the bottom of the page it will contain an additional navbar, contact information for company and copyright. It will also have details about who designed the page with a link to the designer’s homepage.
 ## Features that have been implemented:
 
-•	Responsiveness on all device sizes & types
+•	Responsiveness on all device sizes & types.
 
-•	Interactive elements
+•	Interactive elements.
 
-•	Easy to use navigation on all screen sizes
+•	Easy to use navigation on all screen sizes.
 
-•	Scrolling navigation on services pages
+•	Scrolling navigation on services pages.
 
-•	Contact form
+•	Contact form.
 
-•	Attractive Responsive design
+•	Attractive Responsive design.
 
-•	Social media links
+•	Social media links.
 
-•	Google map API
+•	Google map API.
 ## Features that will be implemented in the future:
-•	Calendar
+•	Calendar.
 
-•	Consultation Booking form
+•	Consultation Booking form.
 
-•	Document Submission
+•	Document Submission.
 
-•	Live Chat
+•	Live Chat.
 
-•	Cookies Acceptance
+•	Cookies Acceptance.
 
 ## Testing
 I used the W3C Markup Validation and W3C CSS Validation Services were used to validate every page of the project to ensure there were no syntax errors in the project. Also gitpod debug was used while writing code to check for errors. Google Chrome DevTools was also used to test different screen sizes and conflictions & errors in design.
 
-•	W3C Markup Validation 
+•	W3C Markup Validation. 
 
-•	W3C CSS Validation
+•	W3C CSS Validation.
 
-•	Gitpod Debug 
+•	Gitpod Debug. 
 
-•	Google Chrome DevTools
+•	Google Chrome DevTools.
 ## Deployment
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
@@ -128,20 +131,22 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Media
 •	The images used in this project were taken from pexels.com.
+•   All Logos were created by the developer.
 ### Code
-•	The HTML/CSS used for the Website was created by me with modified templates taken from bootstrap library and mdbootstrap
+•	The HTML/CSS used for the Website was created by me with modified templates taken from bootstrap library and mdbootstrap.
 
 •	Bootstrap4 - Library was used throughout the project mainly to make site responsive.
 
-•   Template taken for footer and contact form was from mdBootstrap
+•   Template taken for footer and contact form was from mdBootstrap.
 ### Content
 •	All content was written by the developer.
-### Media
-•	All Logos were created by the developer.
+
 ## Acknowledgements
-•	My Mentor for continuous helpful feedback.
+•	My Mentor for continuous helpful feedback and guidance to stay on task.
 
 •	Tutor support at Code Institute for their support.
+
+•   My Partner and Kids for tolerating the late nights.
 
 ## Disclaimer
 The content on this website is for the purpose of this business only and will be copyrighted to MHC Financial Services.
