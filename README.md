@@ -64,7 +64,7 @@ The colors were determined by the palette of colormind website:
 ### Wireframe
 I used Balsamiq to build the Desktop design of the website. View my wireframes here:
 
-[MHC Financial Wireframes](../assets/wireframes/MHC.bmpr)
+[MHC Financial Wireframes](/assets/wireframes/MHC.bmpr)
 
 
 ### Features
