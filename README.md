@@ -64,6 +64,8 @@ The colors were determined by the palette of colormind website:
 ### Wireframe
 I used Balsamiq to build the Desktop design of the website. View my wireframes here:
 
+[MHC Financial Wireframes](../assets/wireframes/MHC.bmpr)
+
 
 ### Features
 The website is built with 4 pages. It makes website easier to load and navigate. Users can easily navigate website by either scrolling down or going through Navigation Bar.
