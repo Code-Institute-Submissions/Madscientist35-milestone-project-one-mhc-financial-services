@@ -143,6 +143,9 @@ width: 100%;
 .foot-styling{
     color: #fff;
 }
+.action:hover{
+    color: #64AF75;
+}
 
 .btn-floating{
     color: #fff;
@@ -168,22 +171,29 @@ width: 100%;
 }
 
 .media{
-    margin-left: 180px;
+    margin-left: 15px;
+    margin-right: 180px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     width: 75%;
-    height: 200px;
+    height: 100%;
+    
 }
 
-.custom-style{
-    margin-top: 50px;
+.custom-styling{
+    margin-top: 5%;
     margin-bottom: 75px;
+    height: 100%;
 }
 
 .par-style{
     color:  #696969;
+    height:100%;
 }
 
-.media{
-    height: 250px;
+.media-body{
+    height: 100%;
+    width: 100%;
 }
 
 .row{
@@ -198,7 +208,49 @@ width: 100%;
 }
 
 /*-------------------------------------------------------------- Contact Page*/
-.col-lg-7 {
+
+.map-container-6 {
+    position: relative;
+    padding-bottom: 20%; 
+    height: 0;
+    overflow: hidden;
+}
+
+.map-container-6 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/*-------------------------------------------------------------- About Page*/
+
+.text-container{
+    margin-top: 5%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.client-reviews{
+    margin-top: 5%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.client-reviews-container{
+    display: inline-flex;
     width: 100%;
-    
+}
+
+.image-parameter{
+    border-radius: 50%;
+}
+
+.content{
+    position: relative;
+}
+
+.rating{
+    color:#FFD700;
 }
