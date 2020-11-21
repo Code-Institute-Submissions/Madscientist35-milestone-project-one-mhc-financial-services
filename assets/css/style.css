@@ -72,6 +72,11 @@ header {
     width: 100%;
 }
 
+.carousel-item img {
+    height: 800px;
+    width: 100%;
+}
+
 /*-------------------------------------------------------------- Card Deck*/
 
 .card-img-top {

@@ -45,6 +45,11 @@ It needs to be informative and display in a clear defined manner, what the compa
 1.	As a returning visitor I want to easily navigate to what I need.
 2.	To see contact information and opening hours.
 3.	To be able to quickly and easy engage with the company.
+
+<img src="/assets/screenshots/contact-screenshot.jpg" width="700" height="400"/>
+<img src="/assets/screenshots/service-screenshot.jpg" width="700" height="400"/>
+<img src="/assets/screenshots/nav-screenshot.jpg" width="700" height="400"/>
+
 ## Features
 When designing this website, I looked for the design inspiration from various tech websites & accounting/financial websites and UX reviews online.
 ### Fonts
@@ -125,7 +130,13 @@ I used the W3C Markup Validation and W3C CSS Validation Services were used to va
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
 
-1.
+1. I opened the 'Settings' section of my project repository in GitHub.
+2. I scrolled down to the 'GitHub Pages' section.
+3. I selected 'master branch' as my Source.
+4. I selected '/(root)' folder.
+5. Then save.
+
+My project is now published on GitHub Pages and allows me to share the live website.
 
 ## Credits
 
