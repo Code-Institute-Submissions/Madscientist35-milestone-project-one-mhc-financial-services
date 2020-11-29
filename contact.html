@@ -47,63 +47,73 @@
             </nav>
         </header>
                                                     <!--Contact Form from mdbootstrap library modified to suit -->
-        <section class="section pb-5">            
-            <div class="row">    
-                <div class="col-lg-5 mb-4">
+        <section class="my-5">
+            <h2 class="h1-responsive font-weight-bold text-center my-5">Contact us</h2>  
+            <p class="text-center w-responsive mx-auto pb-5">Please dont' hesitate to get in touch with any queries you may have, we are there to help.
+            </p>
+            <div class="row">
+                <div class="col-lg-5 mb-lg-0 mb-4">
                     <div class="card">
                         <div class="card-body">
                             <div class="form-header blue accent-1">
-                                <h3><i class="fas fa-envelope"></i> Contact Us:</h3>
+                                <h3 class="mt-2"><i class="fas fa-envelope"></i> Write to us:</h3>
                             </div>
-                            <p>Please send us your enquiries</p>
-                            <br>                                       
-                            <div class="md-form">
-                                <i class="fas fa-user prefix grey-text"></i>
-                                <input type="text" id="form-name" class="form-control">
-                                <label for="form-name">Name</label>
-                            </div>
-                            <div class="md-form">
-                                <i class="fas fa-envelope prefix grey-text"></i>
-                                <input type="email" id="form-email" class="form-control">
-                                <label for="form-email">Email</label>
-                            </div>
-                            <div class="md-form">
-                                <i class="fas fa-tag prefix grey-text"></i>
-                                <input type="text" id="form-Subject" class="form-control">
-                                <label for="form-Subject">Subject</label>
-                            </div>
-                            <div class="md-form">
-                                <i class="fas fa-pencil-alt prefix grey-text"></i>
-                                <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-                                <label for="form-text">Description</label>
-                            </div>
-                            <div class="text-center mt-4">
-                                <button class="btn btn-success">Submit</button>
-                            </div>
+                            <form id="contact-form" method="post" action="contact.php" role="form">
+                                <div class="messages"></div>                            
+                                <div class="md-form">
+                                    <i class="fas fa-user prefix grey-text"></i>
+                                    <label for="form_name">Name</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your full name *" required="required" data-error="Full name is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fas fa-envelope prefix grey-text"></i>                                    
+                                    <label for="form_email">Email</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fas fa-tag prefix grey-text"></i>
+                                    <label for="form-Subject">Subject</label>
+                                    <textarea id="subject" name="subject" class="form-control" placeholder="subject" rows="1" required="required" data-error="subject"></textarea>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fas fa-pencil-alt prefix grey-text"></i>
+                                    <label for="form_message">Message</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                </div>                                
+                                <div class="text-center">
+                                    <input type="submit" name="send" class="btn btn-success btn-send" value="Submit"/>
+                                </div>
+                            </form>                                    
                         </div>
+                    </div>      
+                </div>
+                
+                <div class="col-lg-7">
+                    <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1205.2533277618638!2d-8.980741699367186!3d52.831254961773695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDQ5JzUyLjUiTiA4wrA1OCc0OC4zIlc!5e0!3m2!1sen!2sie!4v1606668776479!5m2!1sen!2sie" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
-                </div>   
-                                                   <!--Google Map-->   
-                <div class="col-lg-7">      
-                    <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1205.2561938023528!2d-8.980731499367202!3d52.83115166177599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b6cd4b51f9717%3A0x634474ad33ff99b8!2sClare%20Rd%2C%20Clonroad%20More%2C%20Ennis%2C%20Co.%20Clare!5e0!3m2!1sen!2sie!4v1600340176121!5m2!1sen!2sie" width="950" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>"
-                    </div>
-                    <br>
-                                                    <!--Contact Icons-->
-                    <div class="row text-center contact-info">
+                    <div class="row text-center">
                         <div class="col-md-4">
-                            <a class="btn btn-success btn-sm"><i class="fas fa-map-marker"></i></a>
-                            <p>Clare Rd, Ennis, Co.Clare</p>
-                            <p>Ireland</p>
+                            <a class="btn-floating">
+                                <i class="fas fa-map-marker tailor"></i>
+                            </a>
+                            <p>Limerick Rd, Ennis</p>
+                            <p class="mb-md-0">Clare</p>
                         </div>
                         <div class="col-md-4">
-                            <a class="btn btn-success btn-sm" href="tel:0656812345"><i class="fas fa-phone"></i></a>
+                            <a class="btn-floating">
+                                <i class="fas fa-phone tailor"></i>
+                            </a>
                             <p>0656812345</p>
-                            <p>Mon - Fri, 9:00-17:00</p>
+                            <p class="mb-md-0">Mon - Fri, 09:00-17:00</p>
                         </div>
                         <div class="col-md-4">
-                            <a class="btn btn-success btn-sm" href="mailto:info@mhcfinancial.ie"><i class="fas fa-envelope"></i></a>
-                            <p>info@mhcfinancial.ie</p>
+                            <a class="btn-floating">
+                                <i class="fas fa-envelope tailor"></i>
+                            </a>
+                            <p>info@mhcfinancial.ie</p>                            
                         </div>
                     </div>
                 </div>
@@ -186,5 +196,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+        <script src="validator.js"></script>
+        <script src="contact.js"></script>
     </body>
 </html>

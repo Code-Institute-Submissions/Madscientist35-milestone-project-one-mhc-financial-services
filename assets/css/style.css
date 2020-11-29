@@ -208,21 +208,28 @@ width: 100%;
 
 /*-------------------------------------------------------------- Contact Page*/
 
-.map-container-6 {
-    position: relative;
-    padding-bottom: 20%; 
-    height: 0;
-    overflow: hidden;
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
-.map-container-6 iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
+.tailor {
+    color: #64AF75;
 }
 
+.md-form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 /*-------------------------------------------------------------- About Page*/
 
 .text-container {

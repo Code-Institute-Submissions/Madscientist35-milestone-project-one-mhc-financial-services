@@ -149,6 +149,9 @@ My project is now published on GitHub Pages and allows me to share the live webs
 •	Bootstrap4 - Library was used throughout the project mainly to make site responsive.
 
 •   Template taken for footer and contact form was from mdBootstrap.
+
+•   The code for submitting the contact form was taken from bootstraptemple.com
+
 ### Content
 •	All content was written by the developer.
 
